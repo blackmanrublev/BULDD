@@ -66,6 +66,7 @@ Love.js is used to build the web version
 ./buildd.sh
 ```
 And you will be required to input the name of your game twice
+If there is a space in the name, use a dash ( - ) or underscore ( _ )
 
 <br>
 
