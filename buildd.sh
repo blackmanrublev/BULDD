@@ -26,7 +26,6 @@ sed -i 's|background-color: rgb( 154, 205, 237 );|background-color: rgb( 10, 10,
 
 sed -i '/background-image: url(bg.png);/d' "builds/web/theme/love.css"
 sed -i '/<h1>Game</h1>/d' "builds/web/index.html"
-sed -i '15, 7d' "builds/web/index.html"
 
 unzip LOVE.zip -d ./builds/windows
 unzip inc.zip -d ./builds/web
